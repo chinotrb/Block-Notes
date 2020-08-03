@@ -30,7 +30,7 @@ function borarTodo(){
 }
 
 function borar() {
-  let x = $(" li" );
+  let x = $("<input type=checkbox> " );
   x = x.eq(-1);
   x.remove();
 }   
