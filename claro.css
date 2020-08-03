@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    background-image: url(../practicaPa/84188.png);
+  margin-top: 20px;
+  margin-left: 660px;
+  margin-right: 865px;
+
+}
+
+p.to {
+    font-family: times new roman;
+    font-size: 70px;
+    font-style: Arial;
+    font-weight: bold;
+    color: #0c0c0c;
+    position: absolute;
+    left: 290px;
+    top:23px;
+}
+
+.do {
+    font-family: times new roman;
+    font-size: 60px;
+    font-style: Arial;
+    font-weight: bold;
+    color: #68f36f;
+    position: absolute;
+    left: 375px;
+    top:35px;
+}
+
+.list {
+    font-family: times new roman;
+    font-size: 50px;
+    font-style: Arial;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    left: 460px;
+    top:45px;
+}
+
+ul.lista {
+    font-family: times new roman;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    color: #000000;
+}
+
+.line {
+    size: initial;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+
+.titul {
+    font-family: times new roman;
+    font-size: 25px;
+    font-style: Arial;
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+    left: 0px;
+}
+
+.jumbotron {
+    background-color: rgba(65, 102, 104, 0.315);
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.RemodeAll {
+    font-family: times new roman;
+    font-size: 25px;
+    font-style: Arial;
+    font-weight: bold;
+    color: #000000;
+    background-color: #ffffff96;
+    border-bottom: darkred;
+    margin-top: 0px;
+    margin-left: 1033px;
+}
+
+.add {
+    font-family: times new roman;
+    font-size: 24px;
+    font-style: Arial;
+    font-weight: bold;
+    color: #000000;
+    background-color: #ffffff96;
+    border-bottom: darkred;
+    position: absolute;
+    top: 94px;
+    left: 1090px;
+    margin: 5px;
+}
+
+.Remove {
+    font-family: times new roman;
+    font-size: 25px;
+    font-style: Arial;
+    font-weight: bold;
+    color: #000000;
+    background-color: #ffffff96;
+    border-bottom: darkred;
+    margin-top: 5px;
+    margin-left: 1073px;
+}

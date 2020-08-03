@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+
+p.to {
+    font-family: times new roman;
+    font-size: 70px;
+    font-style: Arial;
+    font-weight: bold;
+    color: #356d6d;
+    position: absolute;
+    left: 575px;
+}
+
+.do {
+    font-family: times new roman;
+    font-size: 70px;
+    font-style: Arial;
+    font-weight: bold;
+    color: #000000;
+    position: absolute;
+    left: 655px;
+    top: px;
+}
+
+.list {
+    font-family: times new roman;
+    font-size: 70px;
+    font-style: Arial;
+    font-weight: bold;
+    color: #356d6d;
+    position: absolute;
+    left: 740px;
+    top: px;
+}
+
+ul.lista {
+    font-family: times new roman;
+    font-size: 25px;
+    font-style: Arial;
+    font-weight: bold;
+    color: #000000;
+}
+
+.line {
+    position: absolute;
+    top: 130px;
+    left: 300px;
+}
+
+.titul {
+    font-family: times new roman;
+    font-size: 25px;
+    font-style: Arial;
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+    left: 0px;
+}
+
+.jumbotron {
+    background-color: rgba(97, 192, 88, 0.493);
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.RemodeAll {
+    font-family: times new roman;
+    font-size: px;
+    font-style: Arial;
+    font-weight: bold;
+    color: mintcream;
+
+    background-color: rgb(60, 121, 99);
+    margin-left: 1100px;
+}
+
+.add {
+    font-family: times new roman;
+    font-size: 21px;
+    font-style: Arial;
+    font-weight: bold;
+    color: mintcream;
+    background-color: rgb(60, 121, 99);
+
+    position: absolute;
+    top: 124px;
+    left: 1052px;
+    margin: 5px;
+}
+
+.Remove {
+    font-family: times new roman;
+    font-size: px;
+    font-style: Arial;
+    font-weight: bold;
+    color: mintcream;
+    background-color: rgb(68, 133, 109);
+
+    margin-top: px;
+    margin-left: 1132px;
+}
+
+
+.logo {
+    position: absolute;
+    margin-left: 520px;
+    margin-top: 30px;
+}
