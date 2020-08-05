@@ -4,50 +4,66 @@ function inicializarEventos() {
   $("#add").click(agregarLista);
   $("#Remove").click(borar);
   $("#RemodeAll").click(borarTodo);
+  $("#discard").click (remover);
   $("#jumbotron").dblclick(clic);
+ 
 
- recognizeKeyboard()
+  recognizeKeyboard()
 
 }
 /*
 function agregarLista() {
 
-  $("ul").append("<li>" + $("#agregarobjeto").val() );
+  $("#pending").append(" <input type=checkbox>" + $("#agregarobjeto").val() + "<br>");
   $("#agregarobjeto").val("");
 
+}
 }*/
 
 function agregarLista() {
 
-  $("ul").append(" <input type=checkbox>" + $("#agregarobjeto").val() + "<br>" );
+  $("#pending").append(" <input type=checkbox>"  + $(" #agregarobjeto").val() + "<br>");
   $("#agregarobjeto").val("");
 
 }
 
-function borarTodo(){
+function borarTodo() {
   let x = $("ul")
   x.empty();
 }
 
 function borar() {
-  let x = $("  <input type=checkbox>" );
-  x = x.eq(-1);
-  x.remove();
-}   
- 
-function clic(){
-  let x = $(" li" );
+$("#pending").remove('<input type="checkbox">');
+console.log("borrar")
+}
+
+function remover(){
+    $('input[type="checkbox"]').click(function(){
+        if($(this).prop("checked") == true){
+            $("#result").html("Checkbox is checked.");
+        }
+        else if($(this).prop("checked") == false){
+            $("#result").html("Checkbox is unchecked.");
+        }
+    });
+}
+
+
+function clic() {
+  let x = $(" li");
   x.remove()
 }
 
 
-  function recognizeKeyboard() {
-    document.addEventListener('keydown', function (tecla) {
-  
-      if (tecla.keyCode == 13) {
-        agregarLista()
-        console.log("se a agrgado algo")
+function recognizeKeyboard() {
+  document.addEventListener('keydown', function (tecla) {
+
+    if (tecla.keyCode == 13) {
+      agregarLista()
+      console.log("se a agrgado algo")
     }
-  
-    })}
+
+  })
+}
+
 

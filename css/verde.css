@@ -73,8 +73,8 @@ ul.lista {
     font-weight: bold;
     color: mintcream;
 
-    background-color: rgb(60, 121, 99);
-    margin-left: 1100px;
+   margin-top: 3px;
+    margin-left: 1250px;
 }
 
 .add {
@@ -83,11 +83,11 @@ ul.lista {
     font-style: Arial;
     font-weight: bold;
     color: mintcream;
-    background-color: rgb(60, 121, 99);
+ 
 
     position: absolute;
     top: 124px;
-    left: 1052px;
+    left: 1090px;
     margin: 5px;
 }
 
@@ -97,15 +97,26 @@ ul.lista {
     font-style: Arial;
     font-weight: bold;
     color: mintcream;
-    background-color: rgb(68, 133, 109);
 
-    margin-top: px;
-    margin-left: 1132px;
+
+    margin-top: 1px;
+    margin-left: 1280px;
+}
+.discard{
+    font-family: times new roman;
+    font-size: px;
+    font-style: Arial;
+    font-weight: bold;
+    color:  #ffffff;
+
+    position: absolute;
+    
+    margin-top: 52px;
+    margin-left: 1285px;
 }
 
-
-.logo {
-    position: absolute;
+img{
+   position: absolute;
     margin-left: 520px;
-    margin-top: 30px;
+    margin-top: 30px;  
 }

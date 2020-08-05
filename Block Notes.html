@@ -10,41 +10,61 @@
     
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="StyleSheet" href="../practicaPa/css/verde.css" type="text/css">
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="StyleSheet" href="../practicaPa/css/ChinoxMod.css" type="text/css">
 
 
 </head>
 
 <body>
 
- <img src="../practicaPa/logos/84188.png" alt="logo" class="logo">
+    <img src="../practicaPa/logos/84188.png" alt="logo" >
 
-    <p class="to">To </p>
-    <p class="do">Do </p>
+    <p class="to">To</p>
+    <p class="do">Do</p>
     <P class="list">List</P>
     
-    <br><br><br><br><br>
-    <input class="line" type="text" name="objeto" id="agregarobjeto" size="80" placeholder="Add...">
-    <input class="add" type="button" id="add" value="Add..">
+    <br><br><br><br>
+
+    <!--<input class="line" type="text" name="objeto" id="agregarobjeto" size="80" placeholder="Add...">-->
+
+    <div class="line">
+        <input type="text" name="objeto" class="form-control" id="agregarobjeto" size="80" placeholder="Add.." autofocus>
+    </div>
+
+    <div class="add">
+        <input  class="btn btn-outline-danger" id="add" value="Add..">
+    </div>
+   
 
     <br>
 
 
-
     <div class="jumbotron">
 
-        <ul class="lista ">
- 
+       <ul class="lista " id="pending">
 
-           
+       </ul>   
 
-        </ul>   
-  </div>
-       <input class="RemodeAll" type="button" id="RemodeAll" value="Remode All">
-        <input class="Remove" type="button" id="Remove" value="Remove"><br>
+       <ul id="compleated">
 
-        
+       </ul>
+
+    </div>
+
+    <div class="Remove">  
+        <input class="btn btn-outline-danger" type="button" id="Remove" value="Remove">
+    </div>
+
+    <div class="discard">
+        <input class="btn btn-outline-danger" type="button" id="discard" value="Discard">
+    </div>
+
+    <div class="RemodeAll">
+        <input class="btn btn-outline-danger" type="button" id="RemodeAll" value="Remode All">  
+    </div>
+
 
 </body>
 
